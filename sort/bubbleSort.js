@@ -1,4 +1,4 @@
-//冒泡排序
+//冒泡排序 时间复杂度O(N^2) 额外空间复杂度O(1)
 function bubbleSort(arr){
   for(let i=0;i<arr.length;i++){
     for(let j=0;j<arr.length-i-1;j++){

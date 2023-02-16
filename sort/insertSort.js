@@ -1,4 +1,4 @@
-//插入排序可以想象成斗地主在发牌时，你整理扑克牌的过程
+//插入排序可以想象成斗地主在发牌时，你整理扑克牌的过程 时间复杂度O(N^2) 额外空间复杂度O(1)
 function insertSort(arr){
   if(!arr||arr.length<2) return
   for(let i=1;i<arr.length;i++){

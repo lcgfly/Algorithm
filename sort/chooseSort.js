@@ -1,6 +1,4 @@
-const list = [99,4,1,4,5,676,7,100,35,14]
-
-//选择排序
+//选择排序 时间复杂度O(N^2) 额外空间复杂度O(1)
 function chooseSort(arr){
   for(let i=0;i<arr.length-1;i++){
     let min = i
@@ -19,3 +17,5 @@ function swap(arr,i,j){
   arr[i]=arr[j]
   arr[j]=temp
 }
+let list = [99,4,1,4,5,676,7,100,35,14]
+console.log(chooseSort(list))
